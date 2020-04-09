@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+.img {
+    width: 100%;
+    height: 100vh;
+}
+
+.logonho {
+    height: 40px;
+}
+.navbar-light.menuTop .navbar-nav a.nav-link {
+    color: #b3b3b3;
+    padding: 0px 15px;
+    font-weight: 400;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 25px;
+    transition: 0.4s;
+}
+
+.navbar-light.menuTop .navbar-nav a.nav-link:hover {
+    color: white;
+    background-color: rgba(0,0,0,.075);
+    transition: 0.4s;
+}
+
+.menuTop {
+    background-color: transparent !important;
+}
+
+.chuaMenu {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+button.btn.btn-outline-secondary.nutXem {
+    border-radius: 0;
+    border: 2px solid #acad8a;
+    color: #acad8a;
+    transition: 0.4s;
+}
+
+button.btn.btn-outline-secondary.nutXem:hover {
+    color: #242745;
+    background-color: #acad8a;
+    transition: 0.4s;
+}
+
+/* noi dung */
+.textTieuDe h2 {
+    font-size: 34px;
+    padding-top: 50px;
+}
+
+.textTieuDe small {
+    font-size: 17px;
+    display: block;
+    padding-bottom: 69px;
+}
+
+.noidung {
+    background: #e9e9e9;
+}
+
+.no-gutter [class*='col-'] {
+    padding: 0;
+}
+
+.no-gutter .media {
+    margin-right: 15px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    margin-bottom: 100px;
+}
+
+.phanAnh img {
+    width: 120px;
+    height: 120px;
+    padding-right: 10px;
+}
+
+.phanText h4 {
+    padding-top: 20px;
+}
+
+.chuNho p {
+    font-size: 12px;
+}
+
+.col-md-3 .text-muted .pt-5 .chuNho p.tdFooter {
+    font-size: 13px;
+    margin-top: 9px;
+    display: block;
+}
+
+footer i.fab {
+    font-size: 19px;
+    padding: 0 7px;
+}
+
+footer i.fa-twitter {
+    color: turquoise;
+}
+
+footer i.fa-google {
+    color: red;
+}
+
+footer i.fa-flickr {
+    color: pink;
+}
+
+footer i.fa-instagram-square {
+    color: saddlebrown;
+}
+
+@media (max-width: 991.98px) {
+    * {}
+    .menuTop {
+        background-color: #393e43 !important;
+    }
+
+    .navbar .navbar-toggler {
+        background-color: white;
+    }
+
+    .navbar-light.menuTop .navbar-nav a.nav-link {
+        padding: 13px;
+        margin: 0 0;
+        font-size: 19px;
+    }
+
+    .navbar-light.menuTop .navbar-nav li.nav-item {
+        border-bottom: 1px solid gray;
+        width: 100%;
+    }
+
+    .navbar-light.menuTop .navbar-nav li.nav-item:hover {
+        background-color: gray;
+    }
+}
