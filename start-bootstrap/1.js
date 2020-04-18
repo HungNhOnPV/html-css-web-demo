@@ -1,6 +1,6 @@
 $(function () {
   $(window).scroll(function () {
-    if ($("body").scrollTop() > 100) {
+    if ($("html").scrollTop() > 100) {
       $(".logo").addClass("orange");
       $(".navbar")
         .addClass("backgroundWhite")

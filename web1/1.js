@@ -1,6 +1,6 @@
 $(function(){
     $('.backTop').click(function(){
-        $('body').animate({scrollTop:0});
+        $('html').animate({scrollTop:0});
         return false;
     })
 })
