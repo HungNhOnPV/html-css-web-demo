@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+.top {
+  background-image: url(images/bg-header-1.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+}
+
+.menuTop {
+  background: transparent !important;
+  transition: 0.5s;
+}
+
+.menuTop.backgroundWhite {
+  background-color: white !important;
+  transition: 0.5s;
+}
+
+a.navbar-brand.logo {
+  color: white;
+  background: #ec6952;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 20px 39px;
+  position: relative;
+  top: -8px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: 0.5s;
+}
+
+a.navbar-brand.logo.textOrange {
+  color: #ec6952;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.top .menuRight a.nav-link {
+  text-transform: uppercase;
+  padding: 28px 23px;
+  font-size: 13px;
+  color: #e6e6e6;
+  transition: 0.4s;
+}
+
+.top .menuRight.colorBlack a.nav-link {
+  color: #0000007d;
+}
+
+.top .menuRight li.active a.nav-link {
+  color: #ec6952;
+}
+
+.top .menuRight a.nav-link:hover {
+  color: #ec6952;
+  transition: 0.4s;
+}
+
+.top .menuRight a.nav-link.buttonSignUp {
+  border-color: white;
+  padding: 12px 22px;
+  position: relative;
+  margin-top: 16px;
+  color: #ec6952;
+}
+
+.top .menuRight a.nav-link.buttonSignUp.buttonJquery {
+  color: #0000007d;
+  background-color: #ec6952;
+}
+
+.top .menuRight a.nav-link.buttonSignUp:hover {
+  background: #ec6952;
+  border-color: #ec6952;
+  color: white;
+}
+
+.banner h1 {
+  color: #dbdbdb;
+  padding-top: 20%;
+  font-size: 40px;
+}
+
+.banner p {
+  color: gray;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 48px;
+}
+
+.banner button {
+  font-size: 19px;
+  font-weight: 700;
+  padding: 14px 60px;
+  background: #ec6952;
+}
+
+.slide {
+  background-color: #f5f5f5;
+}
+
+cite {
+  color: #ec6952;
+}
+
+ol.carousel-indicators {
+  bottom: -70px;
+}
+
+.carousel-indicators li {
+  background-color: gray;
+}
+
+.carousel-indicators li.active {
+  background-color: #ec6952;
+}
+
+h2.display-5.text-h2 {
+  font-weight: 300;
+}
+
+.icon img {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.icon img:hover {
+  opacity: 1;
+}
+
+h6.display-5.text-h6 {
+  font-weight: 300;
+  line-height: 40px;
+}
+
+h6.display-5.text-h6 a {
+  color: #ec6952;
+}
+
+button.btn.btn-primary.buttonTop {
+  opacity: 0;
+  border-radius: 50%;
+  background: #5d80a1;
+  transition: 0.5s;
+}
+
+button.btn.btn-primary.buttonTop i {
+  color: white;
+  font-size: 30px;
+}
+
+button.btn.btn-primary.buttonTop.display {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+@media (max-width: 575.98px) {
+  * {
+  }
+
+  a.navbar-brand.logo {
+    left: 8px !important;
+  }
+
+  .banner h1 {
+    font-size: 18px;
+    padding-top: 40%;
+  }
+
+  .banner p {
+    font-size: 8px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+
+  .banner button {
+    font-size: 15px;
+    padding: 10px 30px;
+  }
+}
+
+.content3 {
+  background-image: url(images/bg-footer-1.jpg);
+  background-size: cover;
+  color: white;
+  height: 400px;
+}
+
+.footer1 {
+  padding-top: 10%;
+}
+
+button.btn.btn-danger.buttonGet {
+  padding: 14px 36px;
+  background-color: #ec6952;
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #253340;
+}
+
+.footer h6 {
+  color: white;
+}
+
+.footer [class*='footer-col'] a,i {
+  color: #7d9ab4;
+  font-size: 14px;
+}
+
+.footer i {
+  margin: 10px 0;
+}
+
+.footer i.fab {
+  margin: 15px 10px;
+}
+
+.footer p {
+  color: #788189;
+  font-size: 14px;
+}
+
+.footer-container {
+  display: block;
+}
+
+.form-group {
+  width: 288px;
+  display: inline-block;
+}
+
+input.form-control {
+  width: 280px;
+  font-size: 14px;
+  padding: 19px 15px;
+  position: relative;
+  bottom: -2px;
+}
+
+button.btn.btn-primary.buttonSub {
+  background: #5d7fa1;
+  border: #5d80a1;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+button.btn.btn-primary.buttonSub:hover {
+  background-color: #4a6781;
+  border: #4a6781;
+}
+
+.footer .has-divider {
+  border-top: 1px solid #2b3b4a;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.buttonFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonFooter button {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 10px 0;
+  margin-right: 310px;
+  background-color: #253340;
+  border: 1px solid white;
+  color: #4a6781;
+}
+
+.buttonFooter button:hover {
+  background: #4a6781;
+  border: 1px solid #4a6781;
+}
+
+.buttonFooter i.fab {
+  float: left;
+  margin: 8px 0 5px 5px;
+  font-size: 20px;
+}
+
+.buttonFooter p {
+  margin: 5px 10px;
+  display: inline-block;
+  font-weight: 700;
+  float: left;
+}
+
+.contact i {
+  float: left;
+  margin: 0 8px 0 0;
+  font-size: 14px;
+  position: relative;
+  top: 3px;
+}
+
+.contact p {
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.contact p a {
+  color: #b3b3b3;
+}
+
+.contact .address i {
+  margin-bottom: 50px;
+}
+
+.contact .twitter i {
+  font-size: 12px;
+  background: #1b85e0;
+  padding: 3px 3px;
+  border-radius: 3px;
+  color: white;
+  margin: 0;
+}
+
+.bottom-bar {
+  background: #212529;
+  height: 40px;
+}
+
+.bottom-bar small {
+  color: #b3b3b3;
+  padding-top: 12px;
+  display: block;
+}
+
+.number5 p {
+  color: #444444a8;
+}
+
+@media (min-width: 567px) and (max-width: 991.98px) {
+  * {
+  }
+
+  a.navbar-brand.logo {
+    left: 8px;
+  }
+
+  .banner h1 {
+    font-size: 25px;
+    padding-top: 40%;
+  }
+
+  .banner p {
+    font-size: 25px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+
+  .banner button {
+    font-size: 15px;
+    padding: 10px 30px;
+  }
+
+  a.navbar-brand.logo {
+    left: 90px;
+  }
+
+  .top .menuRight {
+    background: #253340;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .top .menuRight a.nav-link {
+    padding: 10px;
+  }
+}
