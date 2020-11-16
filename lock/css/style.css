@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #091921;
+}
+body .clock {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  background: url("../assets/clock.png");
+  background-size: cover;
+  border: 4px solid #091921;
+  box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05), inset 0 -15px 15px rgba(255, 255, 255, 0.05), 0 15px 15px rgba(0, 0, 0, 0.3), inset 0 15px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+body .clock::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body .clock__hour, body .clock__min, body .clock__sec {
+  position: absolute;
+}
+body .clock__hour {
+  width: 160px;
+  height: 160px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+body .clock__hour__hr {
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+body .clock__hour__hr::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 80px;
+  background: #ff105e;
+  z-index: 10;
+  border-radius: 6px 6px 0 0;
+}
+body .clock__min {
+  width: 190px;
+  height: 190px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+body .clock__min__mn {
+  width: 190px;
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+body .clock__min__mn::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 90px;
+  background: #fff;
+  z-index: 11;
+  border-radius: 6px 6px 0 0;
+}
+body .clock__sec {
+  width: 230px;
+  height: 230px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+body .clock__sec__sc {
+  width: 230px;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+body .clock__sec__sc::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 150px;
+  background: #fff;
+  z-index: 12;
+  border-radius: 6px 6px 0 0;
+}
+
+/*# sourceMappingURL=style.css.map */
